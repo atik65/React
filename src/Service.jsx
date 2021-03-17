@@ -8,7 +8,7 @@ const Service = () => {
       <div className="container mt-5">
         <div className="row text-center">
           <h1 className="display-6">Gun Store</h1>
-          <p>Choose You's....</p>
+          <p>Choose Your's....</p>
         </div>
         <div className="row d-flex justify-content-between ml-5">
           {Obj.map((v, i) => {
