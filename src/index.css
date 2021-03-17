@@ -1,0 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none !important;
+  color: #000000;
+}
+
+.link:hover {
+  color: #ffffff;
+}
+
+.menu-active {
+  font-weight: bold;
+  border-bottom: 2px solid #565387;
+  display: inline-block;
+}
+
+.navbar {
+  background-color: #ffffff !important;
+}
+
+.navbar-brand {
+  font-size: 34px !important;
+}
+.svg_image {
+  width: 80%;
+  height: 80%;
+}
+
+@media only screen and (max-width: 600px) {
+  .homeImg {
+    margin-top: 20%;
+  }
+}
+
+.card {
+  box-shadow: rgb(56, 55, 55) 4px 4px 20px;
+  transition: 0.6s;
+}
+
+.card:hover {
+  box-shadow: none;
+  transform: scale(1.1);
+}
+
+.card-btn {
+  transition: 0.5s;
+}
+
+.card-btn:hover {
+  box-shadow: inset 2px 2px 18px rgba(12, 82, 33, 0.8);
+}
+
+.animation {
+  animation: up 3s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes up {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.3);
+  }
+}
